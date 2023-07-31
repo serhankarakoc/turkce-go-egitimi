@@ -729,7 +729,7 @@ p.setAge(35)
 fmt.Printf("Name: %s, Age: %d\n", p.getName(), p.getAge())
 ```
 
-Bu örnekte, Person adlı bir struct oluşturulur ve Name adlı bir string türünde ve Age adlı bir int türünde iki adet özellik tanımlanır. setName adlı bir fonksiyon, Person türünde bir pointer (*Person) parametre alır ve kişinin ismini değiştirir. setAge adlı bir fonksiyon, Person türünde bir pointer (*Person) parametre alır ve kişinin yaşını değiştirir. getName adlı bir fonksiyon, Person türünde bir parametre alır ve kişinin adını döndürür. getAge adlı bir fonksiyon, Person
+Bu örnekte, Person adlı bir struct oluşturulur ve Name adlı bir string türünde ve Age adlı bir int türünde iki adet özellik tanımlanır. setName adlı bir fonksiyon, Person türünde bir pointer (*Person) parametre alır ve kişinin ismini değiştirir. setAge adlı bir fonksiyon, Person türünde bir pointer (*Person) parametre alır ve kişinin yaşını değiştirir. getName adlı bir fonksiyon, Person türünde bir parametre alır ve kişinin adını döndürür. getAge adlı bir fonksiyon, Person türünde bir parametre alır ve kişinin yaşını döndürür.
 
 
 
